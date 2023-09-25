@@ -10,14 +10,9 @@ const AddCard = ({allCards}) => {
             addedDonationItem.push(allCards);
             localStorage.setItem('add', JSON.stringify(addedDonationItem))
         }else{
-            const isExiest = donationItem.find(donet => donet.id === id);
-            if(!isExiest){
                 addedDonationItem.push(...donationItem, allCards)
                 localStorage.setItem('add', JSON.stringify(addedDonationItem))
                 swal("Good job!", "successfully added", "success");
-            }else{
-                swal("Error!", "already added", "error");
-            }
         }
     }
     return (
