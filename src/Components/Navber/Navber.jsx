@@ -5,9 +5,8 @@ const Navber = () => {
     return (
         <div className="">
             <nav className="flex lg:flex-row md:flex-row flex-col items-center justify-between container mx-auto">
-                <div>
+
                     <img src="/src/assets/Logo.png" alt="" />
-                </div>
                 <ul className="flex gap-10 text-xl font-semibold">
                     <li><NavLink
                         to="/"

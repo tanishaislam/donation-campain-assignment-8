@@ -3,13 +3,9 @@ import Navber from "../Components/Navber/Navber";
 
 const MainLayout = () => {
     return (
-        <div className="">
-            <div>
+        <div>
             <Navber></Navber>
-            </div>
-            <div className="z-0">
             <Outlet></Outlet>
-            </div>
             
         </div>
     );
