@@ -3,6 +3,7 @@ import MainLayout from "../MainLayout/MainLayout";
 import Home from "../NavberMenuItem/Home/Home";
 import Donation from "../NavberMenuItem/Donation/Donation";
 import Statistics from "../NavberMenuItem/Statistics/Statistics";
+import AddedCard from "../NavberMenuItem/AddedCard/AddedCard";
 
 
 const MyCreateRoute = createBrowserRouter([
@@ -22,6 +23,11 @@ const MyCreateRoute = createBrowserRouter([
             {
                 path: '/static',
                 element: <Statistics></Statistics>
+            },
+            {
+                path: "/card/:id",
+                element: <AddedCard></AddedCard>,
+                loader:()=> fetch('/card.json')
             }
         ]
     }

@@ -1,8 +1,10 @@
-
+import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 const Cards = ({card}) => {
-    const {img, title, category_Name, category_Background, category_name_bg, text_color} = card;
+    const {id, img, title, category_Name, category_Background, category_name_bg, text_color} = card;
     return (
+       <Link to={`/card/${id}`}>
         <div>
             <div className='rounded-md' style={{backgroundColor: category_Background}}>
                 <img className="w-full" src={img} />
@@ -12,7 +14,11 @@ const Cards = ({card}) => {
             </div>
             </div>
         </div>
+       </Link>
     );
 };
+Cards.propTypes = {
+    card: PropTypes.object
+}
 
 export default Cards;
