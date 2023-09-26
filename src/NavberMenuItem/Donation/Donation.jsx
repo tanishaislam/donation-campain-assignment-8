@@ -23,11 +23,11 @@ const Donation = () => {
                     {
                     seeAll?
                     donation.map(donate=> <AllDonation key={donate.id} donate={donate}></AllDonation>):
-                    donation.slice(0,2).map(donate=> <AllDonation key={donate.id} donate={donate}></AllDonation>)
+                    donation.slice(0,4).map(donate=> <AllDonation key={donate.id} donate={donate}></AllDonation>)
                     }
                 </div>
-                {donation.length>2&& seeAll?'':<button onClick={()=>setSeeAll(!seeAll)} className="text-lg font-semibold bg-green-600 mx-auto block text-white px-4 py-1 rounded-md ">
-                    See All
+                {donation.length>4&& <button onClick={()=>setSeeAll(!seeAll)} className="text-lg font-semibold bg-green-600 mx-auto block text-white px-4  rounded-md ">
+                    {seeAll? '': 'see All'}
                 </button>
                 }
                 </div>}

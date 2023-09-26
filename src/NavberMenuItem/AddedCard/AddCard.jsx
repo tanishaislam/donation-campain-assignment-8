@@ -2,13 +2,14 @@
 import PropTypes from 'prop-types';
 import swal from 'sweetalert';
 const AddCard = ({allCards}) => {
-    const {id, img,title, description,price, text_color} = allCards;
+    const { img,title, description,price, text_color} = allCards;
     const handleAddToDonation = () =>{
         const addedDonationItem = [];
         const donationItem = JSON.parse(localStorage.getItem('add'));
         if(!donationItem){
             addedDonationItem.push(allCards);
             localStorage.setItem('add', JSON.stringify(addedDonationItem))
+            swal("Good job!", "successfully added", "success");
         }else{
                 addedDonationItem.push(...donationItem, allCards)
                 localStorage.setItem('add', JSON.stringify(addedDonationItem))

@@ -8,7 +8,7 @@
       "category_name_bg": "#C4D4F7",
       "text_color": "#0052FF",
       "description": "Good health is central to handling stress and living a longer, more active life. In this article, we explain the meaning of good health, the types of health a person needs to consider, and how to preserve good health. health is a resource to support an individuals function in wider society, rather than an end in itself. A healthful lifestyle provides the means to lead a full life with meaning and purpose.",
-      "price": 5000
+      "price": 500
     },
     {
       "id": 2,
@@ -19,7 +19,7 @@
       "category_name_bg": "#FFC3C5",
       "text_color": "#FF444A",
       "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
-      "price": 2000
+      "price": 250
     },
     {
         "id": 3,
@@ -30,7 +30,7 @@
         "category_name_bg": "#D4ECC1",
         "text_color": "#79C23F",
         "description": "A used clothing drive is philanthropic activity that requests clothing donations from community members or a network of individuals for the benefit of a non profit group or group of vulnerable people. There are many benefits to organizing a used clothing drive. Used clothing drives divert waste from landfills by giving people an alternative disposal method for unwanted, ripped or stained items. ",
-        "price": 6000
+        "price": 280
       },
       {
         "id": 4,
@@ -41,7 +41,7 @@
         "category_name_bg": "#FDD2C4",
         "text_color": "#F87147",
         "description": "Good health is central to handling stress and living a longer, more active life. In this article, we explain the meaning of good health, the types of health a person needs to consider, and how to preserve good health. health is a resource to support an individuals function in wider society, rather than an end in itself. A healthful lifestyle provides the means to lead a full life with meaning and purpose.",
-        "price": 3500
+        "price": 300
       },
       {
         "id": 5,
@@ -52,7 +52,7 @@
         "category_name_bg": "#FDD2C4",
         "text_color": "#F87147",
         "description": "Good health is central to handling stress and living a longer, more active life. In this article, we explain the meaning of good health, the types of health a person needs to consider, and how to preserve good health. health is a resource to support an individuals function in wider society, rather than an end in itself. A healthful lifestyle provides the means to lead a full life with meaning and purpose.",
-        "price": 3500
+        "price": 330
       },
       {
         "id": 6,
@@ -63,7 +63,7 @@
         "category_name_bg": "#D4ECC1",
         "text_color": "#79C23F",
         "description": "A used clothing drive is philanthropic activity that requests clothing donations from community members or a network of individuals for the benefit of a non profit group or group of vulnerable people. There are many benefits to organizing a used clothing drive. Used clothing drives divert waste from landfills by giving people an alternative disposal method for unwanted, ripped or stained items. ",
-        "price": 6000
+        "price": 400
       },
       {
         "id": 7,
@@ -74,7 +74,7 @@
         "category_name_bg": "#FFC3C5",
         "text_color": "#FF444A",
         "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
-        "price": 2000
+        "price": 200
       },
       {
         "id": 8,
@@ -85,7 +85,7 @@
         "category_name_bg": "#C4D4F7",
         "text_color": "#0052FF",
         "description": "Good health is central to handling stress and living a longer, more active life. In this article, we explain the meaning of good health, the types of health a person needs to consider, and how to preserve good health. health is a resource to support an individuals function in wider society, rather than an end in itself. A healthful lifestyle provides the means to lead a full life with meaning and purpose.",
-        "price": 5000
+        "price": 100
       },
       {
         "id": 9,
@@ -96,7 +96,7 @@
         "category_name_bg": "#C4D4F7",
         "text_color": "#0052FF",
         "description": "Good health is central to handling stress and living a longer, more active life. In this article, we explain the meaning of good health, the types of health a person needs to consider, and how to preserve good health. health is a resource to support an individuals function in wider society, rather than an end in itself. A healthful lifestyle provides the means to lead a full life with meaning and purpose.",
-        "price": 5000
+        "price": 150
       },
       {
         "id": 10,
@@ -107,7 +107,7 @@
         "category_name_bg": "#FFC3C5",
         "text_color": "#FF444A",
         "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
-        "price": 2000
+        "price": 210
       },
       {
           "id": 11,
@@ -118,7 +118,7 @@
           "category_name_bg": "#D4ECC1",
           "text_color": "#79C23F",
           "description": "A used clothing drive is philanthropic activity that requests clothing donations from community members or a network of individuals for the benefit of a non profit group or group of vulnerable people. There are many benefits to organizing a used clothing drive. Used clothing drives divert waste from landfills by giving people an alternative disposal method for unwanted, ripped or stained items. ",
-          "price": 6000
+          "price": 290
         },
         {
           "id": 12,
@@ -129,6 +129,6 @@
           "category_name_bg": "#FDD2C4",
           "text_color": "#F87147",
           "description": "Good health is central to handling stress and living a longer, more active life. In this article, we explain the meaning of good health, the types of health a person needs to consider, and how to preserve good health. health is a resource to support an individuals function in wider society, rather than an end in itself. A healthful lifestyle provides the means to lead a full life with meaning and purpose.",
-          "price": 3500
+          "price": 100
         }
   ]

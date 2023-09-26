@@ -3,7 +3,7 @@ import { useLoaderData, useParams } from "react-router-dom";
 import AddCard from "./AddCard";
 
 const AddedCard = () => {
-    const [allCards, setAllCards] = useState([]);
+    const [allCards, setAllCards] = useState({});
     const {id} = useParams()               
     const lod = useLoaderData();
     useEffect(()=>{
