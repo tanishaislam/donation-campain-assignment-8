@@ -1,7 +1,8 @@
 
+import PropTypes from 'prop-types';
 
 const AllDonation = ({donate}) => {
-    const {id, img, title, category_Name, category_Background, category_name_bg, text_color, price} = donate;
+    const { img, title, category_Name, category_Background, category_name_bg, text_color, price} = donate;
     return (
         <div>
             <div style={{background: category_Background}} className="relative flex w-full max-w-[48rem] flex-row rounded-xl bg-white bg-clip-border text-gray-700">
@@ -27,5 +28,9 @@ const AllDonation = ({donate}) => {
         </div>
     );
 };
+
+AllDonation.propTypes = {
+    donate: PropTypes.object
+}
 
 export default AllDonation;
